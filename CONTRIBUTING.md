@@ -60,8 +60,8 @@ for development
 -   Install npm packages for UI and start UI debug server (run the following command from CVAT root directory):
     ```sh
     npm install && \
-    cd cvat-core && npm install && \
-    cd ../cvat-ui && npm install && npm start
+    cd cvat-core && npm ci && \
+    cd ../cvat-ui && npm ci && npm start
     ```
     > Note for Mac users
     >
